@@ -83,8 +83,8 @@ export default function Home() {
               <li key={id} 
               className='my-4 w-full flex justify-between bg-slate-900'>
               <div className='p-4 w-full flex justify-between'>
-                <span className='capitalize'>{item.name}</span>
-                <span>{item.price}</span>
+                <span className='capitalize text-white'>{item.name}</span>
+                <span className="text-white">{item.price}</span>
               </div>
               <button 
               onClick={()=> deleteItem(item.id)}

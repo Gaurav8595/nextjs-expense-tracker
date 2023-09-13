@@ -94,8 +94,8 @@ export default function Home() {
           </ul>
           {items.length < 1? (''): (
             <div className='flex justify-between p-3'>
-              <span>Total</span>
-              <span>${total}</span>
+              <span className="text-white">Total</span>
+              <span className="text-white">${total}</span>
             </div>
           )}
         </div>

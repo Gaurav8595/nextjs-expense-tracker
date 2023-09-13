@@ -88,7 +88,7 @@ export default function Home() {
               </div>
               <button 
               onClick={()=> deleteItem(item.id)}
-              className='ml-8 p-4 border-l-2 border-red-900 hover:bg-red-900 w-16'>X</button>
+              className='ml-8 p-4 border-l-2 border-red-900 hover:bg-red-900 w-16 text-white'>X</button>
             </li>
             ))}
           </ul>
